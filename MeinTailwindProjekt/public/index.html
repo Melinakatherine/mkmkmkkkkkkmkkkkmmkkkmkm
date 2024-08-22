@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <header class="bg-blue-600 text-white p-4 shadow-md">
+        <h1 class="text-3xl font-bold text-center">Mein Portfolio</h1>
+    </header>
+    <main class="p-6">
+        <section id="about" class="mb-8">
+            <h2 class="text-2xl font-semibold mb-2">Über mich</h2>
+            <p class="text-lg leading-relaxed">Hier ist ein bisschen Text über mich. Ich bin ein Webentwickler mit Leidenschaft für Design und Benutzerfreundlichkeit.</p>
+            <button id="toggleAbout" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Mehr erfahren</button>
+            <p id="aboutDetails" class="hidden mt-4">Weitere Informationen über mich und meine Arbeit finden Sie hier. Ich liebe es, neue Technologien zu erforschen und kreative Lösungen zu entwickeln.</p>
+        </section>
+        <section id="designs" class="mb-8">
+            <h2 class="text-2xl font-semibold mb-2">Designs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <img src="blueberry.png" alt="blueberry" class="body">
+                    <p class="text-gray-700">Kurze Beschreibung des Designs.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                    <img src="design2.jpg" alt="Design 2" class="w-full h-32 object-cover rounded-t-lg mb-4">
+                    <h3 class="text-xl font-semibold">Design 2</h3>
+                    <p class="text-gray-700">Kurze Beschreibung des Designs.</p>
+                </div>
+                <!-- Weitere Designs hier -->
+            </div>
+        </section>
+        <section id="feedback">
+            <h2 class="text-2xl font-semibold mb-2">Feedback</h2>
+            <blockquote class="border-l-4 border-blue-600 pl-4 italic text-gray-600">
+                <p>„Eine fantastische Arbeit! Sehr zufrieden mit dem Ergebnis.“ – Kunde A</p>
+            </blockquote>
+        </section>
+    </main>
+    <footer class="bg-blue-600 text-white p-4 text-center mt-8">
+        <p>&copy; 2024 Mein Portfolio</p>
+    </footer>
+
+    <!-- Binde die JavaScript-Datei hier ein -->
+    <script src="src/script.js"></script>
+</body>
+</html>
